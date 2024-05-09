@@ -3,27 +3,20 @@
         display: flex;
         justify-content: space-evenly;
     }
-    
-   /* nav ul {
+    .navigation {
         display: flex;
-        flex: 1 1 auto;
-        justify-content: space-evenly;
-        font-size: 0px;
     }
-    nav ul li {
-        font-size: medium;
-    }*/
-        .navigation {
-            display: flex;
-        }
-        .navigation li {
-            display: block; 
-            flex: 1 1 100%;
-        }
-        .navigation a {
-            text-align: center;
-        }
-        #menu {
-            display: none;
-        }
+    .navigation li {
+        display: block; 
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
+    }
+    .hero span{
+        font-size: 2rem;
+    }
 }
