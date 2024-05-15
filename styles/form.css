@@ -1,0 +1,11 @@
+form {
+    display: grid;
+    padding: 1rem;
+    text-align: right;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+
+label {
+    padding: .25rem;
+}

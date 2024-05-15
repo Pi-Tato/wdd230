@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div id="mode">
+            🕶️
+        </div>
+        <img src="images/profile.jpg" alt="Noah Carlisle Profile" width="90" height="90">
+        <h1>Noah K. Carlisle</h1>
+    </header>
+    <div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li class="active"><a href = "index.html">Home</a></li>
+                <li><a href = "chamber/index.html">Chamber</a></li>
+                <li><a href = "#">Site Plan</a></li>
+                <li><a href = "#">Form</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Form</h1>
+        <form method="get" action="record.html">
+            <label>Username:
+                <input type="text" pattern="[a-zA-Z]{1,}" id="uname" name="username" required>
+            </label>
+            <label>Password:
+                <input type="password" pattern="[a-zA-Z0-9]{8,}" id="p1" name="password" required>
+            </label>
+            <label>Conform Password:
+                <input type="password" pattern="[a-zA-Z0-9]{8,}" id="p2" name="conformation" required>
+            </label>
+            <label>Email:
+                <input type="email" pattern="[a-zA-Z0-9\._%+-]+@byui\.edu$" id="e1" name="email" title="Must be a valid BYUI email." required >
+            </label>
+            <input type="submit" value="Submit" id="btn">
+        </form>
+    </main>
+    <footer>
+        <p>© 2024. Noah Kristopher Carlisle USA.<img src="images/usa-flag.png" alt="USA Flag" width="50" height="26"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
