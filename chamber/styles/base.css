@@ -11,6 +11,12 @@ body {
     min-height: 100vh;
 }
 
+h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
 #mode {
 	position: absolute;
 	top: 1rem;
@@ -131,6 +137,29 @@ section {
     border-color: rgb(145, 88, 13);
     box-shadow: 5px 5px 5px black;
 }*/
+
+form {
+    display: grid;
+    text-align: left;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 5%;
+
+    grid-column: 1 / 1;
+}
+
+label, input{
+    padding: .5rem;
+}
+
+input textarea {
+    padding: 1rem;
+}
+
+.benefits {
+    grid-column: 2 / 3;
+}
+
 .card h2{
     text-align: center;
     background-color: rgb(184, 134, 11);
