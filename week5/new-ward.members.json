@@ -1,0 +1,28 @@
+{
+    "familyName": "Wiliam",
+    "arrivalDate": "5/5/2020",
+    "numberOfRecords": 4,
+    "visted": true,
+    "familyMembers": [
+        {
+            "name" : "John",
+            "gender" : "male",
+            "birthDate" : "5/5/1977"
+        },
+        {
+            "name" : "Jane",
+            "gender" : "female",
+            "birthDate" : "5/5/1987"
+        },
+        {
+            "name" : "Jack",
+            "gender" : "male",
+            "birthDate" : "5/5/2010"
+        },
+        {
+            "name" : "Isaac",
+            "gender" : "male",
+            "birthDate" : "5/5/2000"
+        }
+    ]
+}
