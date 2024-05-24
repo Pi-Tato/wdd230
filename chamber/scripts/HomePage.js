@@ -1,24 +1,7 @@
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
 const membership = document.querySelector("#membership")
-membership.addEventListener("select", () => {
-	switch(membership.value) {
-		case "NP Membership":
-			document.getElementById("benefits_type").textContent = "NP Membership";
-			break;
-		case "Bronze Membership":
-			document.getElementById("benefits_type").textContent = "Bronze Membership";
-			break;
-		case "Silver Membership":
-			document.getElementById("benefits_type").textContent = "Silver Membership";
-			break;
-		case "Gold Membership":
-			document.getElementById("benefits_type").textContent = "Gold Membership";
-			break;
-		default: 
-			document.getElementById("benefits_type").textContent = "Select a Membership";
-	}
-});
+
 
 hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('show');
@@ -39,3 +22,25 @@ modeButton.addEventListener("click", () => {
 	}
 });
 
+const members = fetch("data/members.json").then((response) => {
+	return response.json();
+});
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.remove("list");
+	display.classList.add("grid");
+});
+listbutton.addEventListener("click", () => {
+	display.classList.remove("grid");
+	display.classList.add("list");
+})
+
+function displayData()
+{
+	console.log(members);
+}
+
+displayData();

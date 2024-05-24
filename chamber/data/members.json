@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "The Lazy Bug",
+            "address": "123 Lazy Lane",
+            "phoneNumber": "431-123-4567",
+            "URL": "https://thelazybug.com",
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Umbrella Corporation",
+            "address": "456 Umbrella Lane",
+            "phoneNumber": "325-499-4613",
+            "URL": "https://umbrella.com",
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "TeezyWear",
+            "address": "789 Teezy Lane",
+            "phoneNumber": "984-136-7616",
+            "URL": "https://teezywear.com",
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Comfort Kicks",
+            "address": "987 Kicks Lane",
+            "phoneNumber": "123-456-7890",
+            "URL": "https://comfortkicks.com",
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Epic Soles",
+            "address": "654 Sole Lane",
+            "phoneNumber": "194-255-1234",
+            "URL": "https://epicsoles.com", 
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Adrenaline Ignition",
+            "address": "321 Ignite Lane",
+            "phoneNumber": "123-456-7890",
+            "URL": "https://adrenalineignition.com",
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Power Pulse",
+            "address": "987 Pulse Lane",
+            "phoneNumber": "193-456-7310",
+            "URL": "https://powerpulse.com",
+            "image": "https://via.placeholder.com/200x300",
+            "membership": "Bronze Membership"
+        }
+    ]
+}
