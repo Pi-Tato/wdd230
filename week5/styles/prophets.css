@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+  
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+}

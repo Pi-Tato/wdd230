@@ -172,6 +172,11 @@ input textarea {
     padding-right: 1rem;
 }
 
+.card img {
+    width: 45px;
+    height: 45px;
+}
+
 footer {
     background: wheat;
     padding: 2rem;
